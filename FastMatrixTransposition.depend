@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1534948184 source:/home/loginov/Dropbox/code/FastMatrixTransposition/fmt.cpp
+	<xmmintrin.h>
+	<iostream>
+	<cstring>
+	<cassert>
+	<thread>
+
+1674415399 source:/home/loginov/Dropbox/code/FastMatrixTransposition/main.cpp
+	<iostream>
+	"fmt.h"
+	<chrono>
+	<string>
+
+1534948212 /home/loginov/Dropbox/code/FastMatrixTransposition/fmt.h
+
