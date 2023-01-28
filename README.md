@@ -4,11 +4,22 @@
 This repository contains functions with different approaches to Transposition of Matrix and performance tests of them.
 
 We sequentially implement : <br>
-1. Naive matrix transposition <br> 
-2. Parallel naive matrix transposition <br> 
-3. SSE matrix transposition <br>
-4. Block SSE matrix  transposition <br>  
-5. and fastest variant <b>Parallel Block SSE matrix transposition</b> <br> 
+1. Naive matrix transposition (single-thread)<br> 
+2. Parallel naive matrix transposition (multi-threads)<br> 
+3. SSE matrix transposition (single-thread) <br>
+4. SSE Block matrix  transposition (single-thread) <br>  
+5. and fastest variant <b>SSE Parallel Block matrix transposition</b> (multi-threads) <br> 
+
+## Results of performance tests:
+
+<img src="img/perf_test_3.png" align=center> <br>
+
+All tests were performed on <i> "Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz" with 16 GB of DDR4 RAM </i> <br>
+As can be seen significant difference apears starting with matrix about 2000x2000 <br> 
+
+<b> SSE Block matrix transposition </b> approach faster than any other single-thread approaches <br>
+<b> SSE Parallel Block matrix transposition </b> fastest at all <br>   
+
 
 ## How-to-start tests:
 
